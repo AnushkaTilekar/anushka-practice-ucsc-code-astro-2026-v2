@@ -1,2 +1,3 @@
 My first practice file
 deepseek - 🌳🐻 2.Practice - GitHub for Code Astro Workshop - Day 1 step 3 complete
+Hello there again. I'm trying to use echo, >>, git status, git add, git commit -m, git push in a single code line combine. If you see this output it means it worked. Yeah. I'm happy. (Here is what I did - git status; echo [my message] >> [file name]; git add [file name]; git commit -m my label for this instance of making change in the file;git push; git status)
