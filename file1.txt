@@ -1,3 +1,39 @@
-My first practice file
-deepseek - 🌳🐻 2.Practice - GitHub for Code Astro Workshop - Day 1 step 3 complete
-Hello there again. I'm trying to use echo, >>, git status, git add, git commit -m, git push in a single code line combine. If you see this output it means it worked. Yeah. I'm happy. (Here is what I did - git status; echo [my message] >> [file name]; git add [file name]; git commit -m my label for this instance of making change in the file;git push; git status)
+(Commit-1) My first practice file
+Here is what I did - 
+	(i) 	Opened Ubuntu terminal from Windows search option, 
+	(ii) 	it showed  black window with a prompt like anushka@YourComputer:~$. That’s my Linux home folder.
+	(iii) 	then i checked that my codeastro environment exists by typing in the terminal -
+			conda env list
+	      	(this codeastro environment setup instructions were sent earlier seperately by the Code Astro 2026 workshop organisers. I have already compleed that step.)
+	(iv)	then after seeing the name of this environment in the list, i activated it by typing the following in the ubuntu terminal -
+			conda activate codeastro
+	(v)	then i went to the github website and created and setup a new repository for my personal practice. 
+	(vi)	then i Cloned (downloaded) this empty repo to my laptop, by typing the following in the already running ubuntu terminal (where codeastro was activated) -
+			cd ~
+			git clone [link to repository without square brackets, which is in th eform - https://github.com/YOUR_USERNAME/codeastro-practice.git]
+			cd [repository name without square brackets]
+	(vii)	then i created a file and saved it by typing the following in the currently running ubuntu terminal -
+			echo "My first practice file" > file1.txt
+			git status
+			git add file1.txt
+			git commit -m "[my first commit label without square brackets]"
+			git push
+	(viii)	then i went to the github repository webpage and refreshed it and saw that my newly created file "file1.txt" was now present there.
+
+(Commit-2) deepseek - 🌳🐻 2.Practice - GitHub for Code Astro Workshop - Day 1 step 3 complete
+(Commit-3) Hello there again. I'm trying to use echo, >>, git status, git add, git commit -m, git push in a single code line combined. If you see this output it means it worked successfully. Yayy!. I'm happy. (Here is what I did - git status; echo [my message] >> [file name]; git add [file name]; git commit -m my label for this instance of making change in the file;git push; git status)
+
+(Commit-4) Made grammatical corrections in everything written above
+Here is what i did -
+	(i)	in the currently running ubuntu temrinal i typed the following -
+			nano file1.txt
+		then it opened a new window containing the contents of this file.
+	(ii)	then i made the changes in the content i wanted to make and saved it by pressing ctrl+O (Alpabet Letter O button, not zero)
+	(iii)	then Nano asked me for the filename at the bottom of the screen. It showed:
+			File Name to Write: file1.txt
+		so i Just pressed Enter to confirm the same filename.
+		and then I saw a message at the bottom:
+			[ Wrote 5 lines ] (or whatever number) – this means my file is saved.
+	(iv)	And then to exit the nano window and return to the running currently ubuntu terminal i just Pressed
+			 Ctrl + X (that means "eXit").
+hello
