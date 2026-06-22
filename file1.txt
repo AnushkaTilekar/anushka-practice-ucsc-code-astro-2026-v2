@@ -36,4 +36,4 @@ Here is what i did -
 			[ Wrote 5 lines ] (or whatever number) – this means my file is saved.
 	(iv)	And then to exit the nano window and return to the running currently ubuntu terminal i just Pressed
 			 Ctrl + X (that means "eXit").
-hello
+hello world
